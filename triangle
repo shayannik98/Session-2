@@ -1,0 +1,22 @@
+print("can we have triangle with these numbers")
+side1=float(input(" Enter the  side1 : "))
+side2=float(input(" Enter the  side2 : "))
+side3=float(input("Enter the  side3 : "))
+
+max=max(side1,side2,side3)
+
+if max==side1:
+     if side2+side3>max :
+         print("YES!")
+     else :
+         print("NO!")
+elif max==side2:
+     if side1+side3>max :
+         print("YES!")
+     else :
+         print("NO!")
+else:
+     if side2+side1>max :
+         print("YES!")
+     else :
+         print("NO!")
