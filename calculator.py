@@ -34,5 +34,7 @@ if op== "factorial":
           result= (math.factorial(num3))
 if op== "radical":
      if num3>=0:
-          result= (math.sqrt(num3))         
+          result= (math.sqrt(num3))
+     else:
+             print("not valid")   
 print(result)              
