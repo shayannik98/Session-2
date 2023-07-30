@@ -36,5 +36,6 @@ if op== "radical":
      if num3>=0:
           result= (math.sqrt(num3))
      else:
-             print("not valid")   
-print(result)              
+             print("not valid") 
+else:
+     print("invalid number !")                       
