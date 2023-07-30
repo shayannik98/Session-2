@@ -19,14 +19,14 @@ if op== "-":
       
     result=num1-num2
 if op== "sin":
-    result= (math.radians.sin(num3))
+    print(math.sin(math.radians(num3)))
 if op== "cos":
-    result (math.radians.cos(num3))
+    print(math.cos(math.radians(num3)))
 if op== "tan":
-    result= (math.radians.tan(num3))  
+    print(math.tan(math.radians(num3))) 
 if op== "cot":
     if math.tan(num3)!=0:
-           result= (1/math.radians.tan(num3))
+           print(1/math.tan(math.radians(num3)))
 else: 
            result= ("not valid!")          
 if op== "factorial":
